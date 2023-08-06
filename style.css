@@ -1,0 +1,129 @@
+/* Default styles */
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+/* body, html {
+    margin: 10;
+    padding: 5px;
+    height: auto;
+    background-image: url(img.png);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+
+} */
+
+body{
+    background-image: url(img.png);
+background-size: 100%;
+text-align: justify;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+}
+#div1{
+    display: flex;
+}
+#div2{
+    display: flex;
+}
+h1 {
+    margin-top: 20px;
+    color: wheat;
+    text-align: center;
+    }
+  
+  .centered {
+    text-align: center;
+  }
+#allFoodItems{
+    background-color: #582f0e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    height: auto;
+     margin-bottom:1em;
+}
+#fruits{
+    background-color: #7f4f24;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 22%;
+}
+#vegetables{
+    background-color: #936639;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 30%;
+}
+#protien{
+    background-color: #a68a64;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 26%;
+}
+#foodnuts{
+    background-color: #b6ad90;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 13%;
+}
+#foodgrains{
+    background-color: #c2c5aa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 18%;
+}
+#calories{
+    background-color: #a4ac86;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 58%;
+}
+#Lesscalories{
+    background-color: #656d4a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 48%;
+}
+#highesttolowest{
+    background-color: #414833;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#lowesttohighest{
+    background-color: #333d29;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
